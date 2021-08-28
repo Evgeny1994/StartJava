@@ -7,7 +7,7 @@ public class Calculator {
         int first;
         int second;
         String operator;
-            System.out.println(" = ");
+        System.out.println(" = ");
         first = read.nextInt();
         operator = read.next();
         second = read.nextInt();
@@ -28,7 +28,7 @@ public class Calculator {
             for(int i = 1; i < second; i++) {
             result*=first;
         }
-            System.out.println(result);
+            System.out.println(" = " + result);
         }
         if (operator.equals(" % ")) {
             System.out.println(" = " + (first % second));
