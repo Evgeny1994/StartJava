@@ -23,8 +23,8 @@ public class Calculator {
             int result = 1;
                 for(int i = 1; i < second; i++) {
                 result*=first;
-        }
-            System.out.println(" = " + result);
+            }
+                System.out.println(" = " + result);
         } else if (operator.equals(" % ")) {
             System.out.println(" = " + (first % second));
         }
